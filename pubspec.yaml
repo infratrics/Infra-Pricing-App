@@ -1,0 +1,29 @@
+name: infra_pricing_app
+description: "تطبيق حصر وتسعير مشاريع البنية التحتية"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # الأيقونات الأساسية
+  cupertino_icons: ^1.0.6
+
+  # إدارة قاعدة البيانات المحلية على الموبايل
+  sqflite: ^2.3.0
+  path: ^1.9.0
+
+  # دعم تشغيل قاعدة البيانات على الكمبيوتر
+  sqflite_common_ffi: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
